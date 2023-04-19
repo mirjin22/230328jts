@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>display 연습 1</title>
+  <style>
+    
+   .gop {
+     margin:50px auto;
+     width: 400px;
+      padding-left: 0;
+   }
+   .gop li:hover{
+    color: bisque;
+   background-color: rgb(20, 20, 80);
+   }
+    .gop li{
+      cursor: pointer;
+      border: solid palevioletred;
+      background-color: orange;
+      display: inline-block;
+      width: 50px; height: 50px;
+      margin:20px;
+      text-align: center;
+      line-height: 40px;
+    
+    }
+    .gop a {
+      text-decoration: none;
+    }
+   .gop a:hover{
+    color: aliceblue;
+    vertical-align: middle;
+   }
+  </style>
+</head>
+<body>
+  <h1>display 연습 1</h1>
+  <ul>
+    <li>마우스를 올리면 글자색과 배경색 변경</li>
+    <li>중앙 정렬</li>
+  </ul>
+  <ul class="gop">
+    <li><a href="#">menu1</a></li><li><a href="#">menu2</a></li><li><a href="#">menu3</a></li><li><a href="#">menu4</a></li>
+  </ul>
+</body>
+</html>

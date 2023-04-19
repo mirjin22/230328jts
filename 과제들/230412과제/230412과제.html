@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Document</title>
+  <style>
+    body{
+      line-height: 100px;
+      text-align: center;
+      width: 600px;
+      margin: 0 auto;
+    }
+    div{
+      padding: 20px 50px;
+      border: 5px solid black;
+      border-radius: 30px;
+      float: left;
+      display: block;
+    }
+    input{
+      background-color: palevioletred;
+      margin: 0 50px auto;
+      padding: 20px 40px;
+      border: 1px solid black;
+      border-radius: 30px;
+    }
+    input:focus{
+      background-color:firebrick ;
+    }
+    .name{
+     background-image: url(./images/man.PNG);
+     background-repeat: no-repeat;
+     background-size: auto;
+     background-position:10px;
+    }
+    .email{
+     background-image: url(./images/kakao.PNG);
+     background-repeat: no-repeat;
+     background-size: auto;
+     background-position:10px;
+    }
+    
+    .phone{
+     background-image: url(./images/phone.PNG);
+     background-repeat: no-repeat;
+     background-size: auto;
+     background-position:10px;
+    }
+    
+    
+    
+    
+  </style>
+</head>
+<body>
+  <div>
+    <input class="name" type="text" name="username"  placeholder="이름을 입력하세요" >
+    <input class="email"type="email" name="useremail"  placeholder="이메일을 입력하세요">
+    <input class="phone" type="text" name="usernumber" placeholder="전화번호를 입력하세요">
+  </div>
+</body>
+</html>
