@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>webEx1.html</title>
+  <style>
+    html{
+      background-image: url(./images/baa.png);
+    }
+    body{
+      width: 950px; height: 815px;
+      border: 5px solid pink;
+      margin: 0 auto;
+      background-color: #ddd;
+      margin-top: 20px;
+    }
+    header{
+      background-color: purple;
+      color: #fff;
+      font-weight: bold;
+      width: 950px; height: 130px;
+      display:block;
+      font-family: '휴먼편지체','맑은 고딕',돋움,sans-serif;
+    }
+    header h1{
+      position: relative;
+      bottom: 130px; left: 120px;
+      font-size: 50px;
+    }
+    header h2{
+      position: relative;
+      bottom: 165px; left: 120px;
+      font-size: 34px;
+    }
+    header img{
+      background-color: purple;
+      width: 90px; height: 90px;
+      padding: 0;
+      margin: 20px 0 0 20px;
+    }
+    
+    .box0{
+      background-color: yellow;
+      height: 40px;
+      padding:0 22px 22px 0;
+      margin: 0;
+      height: 19px;
+    }
+    ul{
+      margin: 0 auto;
+      list-style: none;
+      padding: 0;
+      line-height: 1.6px;
+    }
+    ul li{
+     padding: 20px;
+     width: 80px;
+     float: left;
+     transition: all 0.4s;
+    }
+
+    ul li a{
+      width: 200px;
+      padding: 0;
+      color: purple;
+      text-decoration: none;
+      margin: 0;
+    }
+    ul li:hover{
+      background-color: red;
+      padding: 20px;
+    }
+    
+    .box{
+      float: left;
+    }
+    figure{
+      margin: 0;
+      padding: 0;
+      float: left;
+    }
+    .box1 figcaption{
+      margin: 0; height: 0;
+      padding: 0;
+      position: relative;
+      bottom: 50px; left: 180px;
+    }
+    .box2 figcaption{
+      margin: 0;
+      padding: 0;
+      position: relative;
+      bottom: 50px; left: 210px;
+    }
+    .box1 h2, .box1 h3, .box1 p{
+      overflow: hidden;
+      width: 290px;
+      margin-left: 20px;
+    }
+    .box2 h2, .box2 h3, .box2 p{
+      overflow: hidden;
+      width: 293px;
+    }
+    .box1, .box2{
+      margin: 0 20px; 
+    }
+    .box h3{
+      color: red;
+    }
+    .box1 img {
+     width:290px; height: 190px;
+     border: 1px red solid;
+     background-color: #fff;
+     margin: 20px 20px 20px 0;
+     padding: 5px 5px 30px 5px;
+     float: left;
+    }
+
+    .box2 img {
+     width:290px; height: 190px;
+     border: 1px red solid;
+     background-color: #fff;
+     margin: 20px 20px 20px 0; 
+     padding: 5px 5px 30px 5px;
+     float: left;
+    }
+    section h2, .box3 h2{
+      color: red;
+    }
+    .box3{
+      width: 282px;
+      float: right;
+      height: 600px;
+      border-left: 1px solid red;
+      background-color: #fff;
+      position: relative;
+      bottom: 267px;
+      font-size: 20px;
+    }
+    .box3 h2{
+     padding: 15px 60px 0px 10px;
+    }
+    .box3 p{
+     border-bottom: 1px red solid ;
+     padding: 10px;
+    }
+    span{
+      padding: 10px;
+    }
+    .box4 {
+      float: left;
+      width: 950px; height: 46.2px;
+      margin: 0;
+      position: relative;
+      bottom: 268px;
+      background-color: purple;
+    }
+    .box3 p:hover{
+      background-color: red;
+    }
+
+
+    
+
+
+  </style>
+</head>
+<body>
+  <header>
+  <img src="./images/Leica_Camera.svg.png
+  " alt="리아카">
+  <h1>Jin's kitchen</h1>
+  <h2>cooking class</h2>
+  </header>
+  <div class="box0">
+  <ul>
+    <li><a href="#">홈</a></li>
+    <li><a href="#">소개</a></li>
+    <li><a href="#">교실</a></li>
+    <li><a href="#">케이터링</a></li>
+    <li><a href="#">연락처</a></li>
+  </ul>
+  </div>
+  <div class="box box1">
+    <figure>
+    <img src="./images/puple.jpg" alt="채식사진">
+    <figcaption>Oriental Salad</figcaption>
+    </figure>
+    <h2>채식주의자</h2>
+    <h3>런던에서의 5주 코스</h3>
+    <p>5주간 채식주의자 음식에 대해 소개하고 쌀과 국수 요리를 가르친다</p>
+  </div>
+  <div class="box box2">
+    <figure>
+    <img src="./images/sos.jpg" alt="채소드레싱">
+    <figcaption>Say Sauce</figcaption>
+    </figure>
+    <h2>소스 마스터클래스</h2>
+    <h3>1일 워크샵</h3>
+    <p>1일 집중 코스에서는 다양한 요리에서 시음할 수 있는 가장 맛있는 소스를 만드는 방법을 살펴본다.</p>
+  </div>
+  <div class="box3">
+    <aside>
+    <h2>인기요리법</h2>
+    <p>후라이드</p>
+    </aside>
+    <aside>
+    <p>고추바사삭</p>
+    </aside>
+    <aside>
+      <p>양념치킨</p>
+    </aside>
+    <aside>
+      <p>강정</p>
+    </aside>
+    <h2>연락처</h2>
+      <span>경기 수원시 팔달구 매산동</span>
+    </div>
+
+    
+      
+    
+  <div class="box4">
+   <p> @Jin's Kitchen 진씨네 키친</p>
+  </div>
+</body>
+</html>
