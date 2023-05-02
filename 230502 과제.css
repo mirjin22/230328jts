@@ -1,0 +1,93 @@
+@charset "utf-8";
+body{margin: 0; padding: 0;
+background-color: cadetblue;
+}
+.container{margin: 0; padding: 0;}
+h1{
+  font-size: 3.0rem;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+}
+img{
+  width: 50vw; 
+}
+button{
+  background-color: inherit;
+  border-radius: 30px;
+  padding: 10px;
+  width: 140px;
+  text-align: center;
+  margin-top: 30px;
+}
+header{
+  display: block;
+  padding-top: 10%;
+  width: 400px;
+  text-align: left;
+  margin: 0 auto;
+}
+header h1 {
+  padding: 10px 0;
+}
+header button{
+  position: relative;
+  margin-top: 20px;
+}
+.img1{
+  margin-top: 100px;
+  background-color: antiquewhite;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+}
+.box1{
+  width: 40%;
+  padding: 50px;
+}
+article h1, article p{
+  width: 400px;
+}
+article{
+display: flex;
+flex-flow: wrap;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin: 0; padding: 0;
+overflow: hidden;
+padding-top: 50px;
+}
+.main2{
+float: right;
+}
+.img2{
+  margin-top: 100px;
+  background-color: antiquewhite;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.box2{
+  width: 40%;
+  padding: 50px;
+}
+aside{
+  margin: 0 auto;
+  width: 50vw;
+  padding-top: 10%;
+}
+input{
+  width: 75%;
+  border-radius: 30px;
+}
+aside button{
+  float: right;
+}
+.svg1{
+  padding:60px 0;
+  margin: 0 auto;
+  display: flex;
+  width: 15%;
+  justify-content:space-around;
+}
