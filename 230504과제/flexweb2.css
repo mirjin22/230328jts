@@ -127,7 +127,7 @@ video{
 justify-content: center;
 }
 .box3-txt{
-  width: 100%;
+  width: 1000px;
   padding:0 80px;
   height: 600px;
   line-height: 1.6;
@@ -195,7 +195,9 @@ justify-content: center;
 .box4{
   display: flex;
   font-size: 2.0rem;
-  position: relative;;
+  position: relative;
+  width: 1900px;
+  margin: 0; padding: 0;
 }
 
 .box4-asdf0{
@@ -210,7 +212,7 @@ justify-content: center;
 }
 .box4-asdf1{
   align-items: center;
-  margin-left: 20px;
+  margin-left: 10px;
   margin-top: 200px;
 }
 .box4-asdf1 a{
@@ -348,6 +350,7 @@ ul li button:hover{
 .box7{
   display: flex;
   justify-content: space-around;
+  width: 1862.5555px;
   margin: 0;
   height: 7vh;
   background-color: #afadad;
