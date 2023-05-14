@@ -383,9 +383,10 @@ body {
 .onefoot-main .onefoot-center h2 {
   font-size: var(--font-size-14);
 }
-.onefoot-main .onefoot-center p {
+.onefoot-main .onefoot-center .onefoot-middle p {
   font-size: var(--font-size-16);
-  color: #f5f5f5;
+  color: #7a7878;
+  margin-top: 10px;
 }
 .onefoot-main .onefoot-center .onefoot-middle {
   margin: 40px;
