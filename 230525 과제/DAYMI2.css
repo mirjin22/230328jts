@@ -108,17 +108,17 @@ header menu li {
   border-right: 1px solid #727171;
   height: 370px;
 }
-.center-txt .center-box2 h2{
+.center-txt .center-box2 h2 {
   margin-left: 40px;
 }
-.center-txt .center-box2 p{
+.center-txt .center-box2 p {
   margin-left: 40px;
 }
-.center-txt .center-box1 div:nth-child(1){
+.center-txt .center-box1 div:nth-child(1) {
   border-bottom: 1px solid #727171;
   padding-bottom: 50px;
 }
-.center-txt .center-box2 div:nth-child(1){
+.center-txt .center-box2 div:nth-child(1) {
   border-bottom: 1px solid #727171;
   padding-bottom: 50px;
 }
@@ -132,36 +132,75 @@ header menu li {
 /* middle-img , middle-txt*/
 
 .middle-img {
-  grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+  grid-template: repeat(3, 300px) / repeat(4, 1fr);
   font-size: var(--font-size-26);
-  font-weight: 700;}
-.middle-img a{
-  display: flex;
+  font-weight: 700;
+  transition: 0.5s;
+}
+.middle-img a {
   justify-content: center;
-  align-items: center;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  height: 300px;
+  opacity: 0;
 }
 .middle-txt {
   text-align: center;
 }
 .img-box1 {
+  background: url(./imges/1200x900.jpeg) no-repeat 100% 100% / cover;
   grid-column: 1 / 3;
   grid-row: 1 / 3;
+  width: 100%;
+}
+.img-box1:hover a {
+  opacity: 1;
+}
+.img-box2:hover a {
+  opacity: 1;
+}
+.img-box3:hover a {
+  opacity: 1;
+}
+.img-box4:hover a {
+  opacity: 1;
+}
+.img-box5:hover a {
+  opacity: 1;
+}
+.img-box6:hover a {
+  opacity: 1;
+}
+.img-box7:hover a {
+  opacity: 1;
 }
 .img-box2 {
+  background: url(./imges/800x600.jpeg) no-repeat 100% 100% / cover;
   grid-column: 3 / 4;
   grid-row: 1 / 2;
+  width: 100%;
 }
 .img-box3 {
+  background: url(./imges/eee.jpeg) no-repeat 100% 100% / cover;
   grid-column: 4 / 5;
   grid-row: 1 / 3;
 }
 .img-box4 {
+  background: url(./imges/1200x450.jpeg) no-repeat 100% 100% / cover;
   grid-column: 3 / 5;
   grid-row: 2 / 3;
 }
 .img-box5 {
+  background: url(./imges/gong.jpeg) no-repeat 100% 100% / cover;
   grid-column: 1 / 3;
   grid-row: 3 / 4;
+}
+.img-box6 {
+  background: url(./imges/geo.jpg) no-repeat 100% 100% / cover;
+}
+.img-box7 {
+  background: url(./imges/uuuu.jpeg) no-repeat 100% 100% / cover;
 }
 .middle-txt1 {
   margin-top: 100px;
@@ -282,7 +321,7 @@ header menu li {
   padding: 30px 0;
   grid-template: repeat(2, 1fr) / repeat(6, 1fr);
 }
-.coopang div a:hover li{
+.coopang div a:hover li {
   opacity: 0.5;
 }
 .coopang img {
